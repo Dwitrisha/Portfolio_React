@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+#icon{
+width:55%;
+
+}
+
+#iconname{
+   font-size: 1.1rem;
+   font-weight: 400;
+
+}
+
+#box{
+    width:5rem;
+    padding: 1rem;
+}
+#box:hover{
+ background-color: rgba(127, 255, 212, 0.459);
+ border-radius: 5px;
+}

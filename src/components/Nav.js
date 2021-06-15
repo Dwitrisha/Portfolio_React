@@ -10,7 +10,8 @@ function Nav() {
     
  
       <a href="#projects">PROJECTS</a>
-        <a href="#about">ART</a>
+        <a href="#skills">SKILLS</a>
+      
       
       </ul>
     </nav>

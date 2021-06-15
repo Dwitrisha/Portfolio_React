@@ -1,9 +1,111 @@
-*{
+
+  
+  *{
     margin:0;
 }
+
+
+
+.bg {
+    animation:slide 7s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(99, 99, 99) 50%, rgb(192, 192, 192) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:10s;
+  }
+  
+  .bg3 {
+    animation-duration:11s;
+  }
+  
+
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-color: #000000;
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
 #title{
     font-size: 2.1rem;
     margin: 2rem;
     color: rgb(39, 39, 39);
     font-family:monospace;
+}
+
+.containerbox{
+    margin-left:0;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 2rem;
+   
+}
+
+@media(max-width:1200px)
+{
+    .containerbox{
+        margin-left: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        padding-right:10%;
+     padding-bottom: 2rem;
+       
+    }
 }
