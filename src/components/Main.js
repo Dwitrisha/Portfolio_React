@@ -3,6 +3,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import "./css/Main.css"
 import Email from './images/Email.png'
+import Photo  from './images/Photo.jpeg'
 import Resume from './resume/Resume.pdf'
 import Nav from './Nav'
 import Projects from "./Projects"
@@ -16,7 +17,7 @@ function Main() {
             
           <a href={Resume} target="_blank"> <button id="resume">Resume</button></a>
           <center>
-          <img id="dpphone" src="https://media-exp1.licdn.com/dms/image/C4E03AQFWrKOn3PSXQg/profile-displayphoto-shrink_400_400/0/1613409307512?e=1623283200&v=beta&t=r329JkKzd_HSpVX3UrmsUB5dDyHsYv0bdSoUjE5TOpU"></img>
+          <img id="dpphone" src={Photo}></img>
           </center>
           <div className="grid" > 
          <div>
