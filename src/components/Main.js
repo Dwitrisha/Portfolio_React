@@ -36,7 +36,7 @@ function Main() {
          </div> 
        <div>
        
-   <img id="dp" src="https://media-exp1.licdn.com/dms/image/C4E03AQFWrKOn3PSXQg/profile-displayphoto-shrink_400_400/0/1613409307512?e=1623283200&v=beta&t=r329JkKzd_HSpVX3UrmsUB5dDyHsYv0bdSoUjE5TOpU"></img>
+   <img id="dp" src="https://media-exp1.licdn.com/dms/image/C4E03AQFWrKOn3PSXQg/profile-displayphoto-shrink_400_400/0/1613409307512?e=1629331200&v=beta&t=XHn4ufbeAi1lBr6TdbEPU-A4L2LH7bTXfAsgio-fsQs"></img>
   
    </div> 
    
